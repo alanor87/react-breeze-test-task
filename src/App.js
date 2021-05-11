@@ -17,13 +17,16 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const localEntries = JSON.parse(localStorage.phoneBookentries);
-    if (localEntries.length !== 0) {
-      this.setState({
-        entries: [...localEntries]
-      });
-      return;
+    if (localStorage.phoneBookentries) {
+      const localEntries = JSON.parse(localStorage.phoneBookentries);
+      if (localEntries.length) {
+        this.setState({
+          entries: [...localEntries]
+        });
+        return;
+      }
     }
+    
     this.setState({
       entries: [...(phonebook_db.map(entry => (
         { ...entry, id: uuidv4() }
