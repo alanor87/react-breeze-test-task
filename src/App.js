@@ -17,8 +17,8 @@ class App extends Component {
   }
 
   componentDidMount() {
-    if (localStorage.phoneBookentries) {
-      const localEntries = JSON.parse(localStorage.phoneBookentries)
+    const localEntries = JSON.parse(localStorage.phoneBookentries);
+    if (localEntries.length !== 0) {
       this.setState({
         entries: [...localEntries]
       });
