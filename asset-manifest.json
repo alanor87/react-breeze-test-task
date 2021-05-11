@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/alanor87/react-breeze-test-task/static/css/main.63b3dd3d.chunk.css",
-    "main.js": "/alanor87/react-breeze-test-task/static/js/main.ba4eba8f.chunk.js",
-    "main.js.map": "/alanor87/react-breeze-test-task/static/js/main.ba4eba8f.chunk.js.map",
-    "runtime-main.js": "/alanor87/react-breeze-test-task/static/js/runtime-main.e879248d.js",
-    "runtime-main.js.map": "/alanor87/react-breeze-test-task/static/js/runtime-main.e879248d.js.map",
-    "static/js/2.6e73858c.chunk.js": "/alanor87/react-breeze-test-task/static/js/2.6e73858c.chunk.js",
-    "static/js/2.6e73858c.chunk.js.map": "/alanor87/react-breeze-test-task/static/js/2.6e73858c.chunk.js.map",
-    "index.html": "/alanor87/react-breeze-test-task/index.html",
-    "static/css/main.63b3dd3d.chunk.css.map": "/alanor87/react-breeze-test-task/static/css/main.63b3dd3d.chunk.css.map",
-    "static/js/2.6e73858c.chunk.js.LICENSE.txt": "/alanor87/react-breeze-test-task/static/js/2.6e73858c.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.63b3dd3d.chunk.css",
+    "main.js": "/static/js/main.ba4eba8f.chunk.js",
+    "main.js.map": "/static/js/main.ba4eba8f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.39cd64d5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.39cd64d5.js.map",
+    "static/js/2.6e73858c.chunk.js": "/static/js/2.6e73858c.chunk.js",
+    "static/js/2.6e73858c.chunk.js.map": "/static/js/2.6e73858c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.63b3dd3d.chunk.css.map": "/static/css/main.63b3dd3d.chunk.css.map",
+    "static/js/2.6e73858c.chunk.js.LICENSE.txt": "/static/js/2.6e73858c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e879248d.js",
+    "static/js/runtime-main.39cd64d5.js",
     "static/js/2.6e73858c.chunk.js",
     "static/css/main.63b3dd3d.chunk.css",
     "static/js/main.ba4eba8f.chunk.js"
