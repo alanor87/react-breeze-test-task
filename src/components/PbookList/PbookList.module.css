@@ -1,0 +1,28 @@
+
+.entry {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size: 24px;
+    
+text-align: left;
+}
+
+.pbookList > li > * {
+width: calc(100% / 3);
+}
+
+.pbookHeader {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.controlBtnContainer {
+    display: flex; 
+    justify-content: space-around;
+}
+
+.entryControlBtn {
+    padding: 5px;
+}
