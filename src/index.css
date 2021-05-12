@@ -6,7 +6,7 @@
 
 body {
   background: linear-gradient(to right, #659999, #f4791f);
-  padding-top: 30px;  
+  padding-top: 30px;
   color: white;
 }
 
@@ -47,23 +47,29 @@ input {
 
 .App {
   width: 80%;
- max-width: 800px;
- margin: 0 auto;
- border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 10px;
   background: linear-gradient(to right, #2193b0, #6dd5ed);
- padding: 20px 40px;
+  padding: 20px 40px;
 }
 
 .inputLabel {
-    width: 85%;
+  width: 85%;
+  display: block;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 600px) {
+  .inputLabel {
     display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    margin-bottom: 30px;
+  }
 }
 
 .inputField {
-    flex-grow: 1;
-    max-width: 310px;
-    border-radius: 10px;
+  flex-grow: 1;
+  max-width: 310px;
+  border-radius: 10px;
 }
